@@ -14,7 +14,7 @@ void roots(double a, double b, double dis)
 	{
 		++count;
 	}
-	std::cout << "Êîë-âî R êîðíåé: " << count << std::endl;
+	std::cout << "ÐšÐ¾Ð»-Ð²Ð¾ R ÐºÐ¾Ñ€Ð½ÐµÐ¹: " << count << std::endl;
 }
 
 void rootsFind(double a, double b, double c)
@@ -24,7 +24,7 @@ void rootsFind(double a, double b, double c)
 		double dis = b * b - 4 * a * c;
 		if (dis < 0)
 		{
-			std::cout << "Íåò Êîðíåé";
+			std::cout << "ÐÐµÑ‚ ÐšÐ¾Ñ€Ð½ÐµÐ¹";
 		}
 		else {
 			roots(a, b, dis);
@@ -37,7 +37,7 @@ void rootsFind(double a, double b, double c)
 		{
 			++count;
 		}
-		std::cout << "Êîë-âî R êîðíåé: " << count << std::endl;
+		std::cout << "ÐšÐ¾Ð»-Ð²Ð¾ R ÐºÐ¾Ñ€Ð½ÐµÐ¹: " << count << std::endl;
 	}
 }
 
@@ -48,11 +48,11 @@ int main()
 	double a = 0;
 	double b = 0;
 	double c = 0;
-	std::cout << "Ââåäèòå êîýôôèöèåíò a: " << std::endl;
+	std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾ÑÑ„Ñ„Ð¸Ñ†Ð¸ÐµÐ½Ñ‚ a: " << std::endl;
 	std::cin >> a;
-	std::cout << "Ââåäèòå êîýôôèöèåíò b: " << std::endl;
+	std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾ÑÑ„Ñ„Ð¸Ñ†Ð¸ÐµÐ½Ñ‚ b: " << std::endl;
 	std::cin >> b;
-	std::cout << "Ââåäèòå êîýôôèöèåíò c: " << std::endl;
+	std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾ÑÑ„Ñ„Ð¸Ñ†Ð¸ÐµÐ½Ñ‚ c: " << std::endl;
 	std::cin >> c;
 	rootsFind(a, b, c);
 
