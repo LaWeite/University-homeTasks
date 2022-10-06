@@ -7,21 +7,21 @@ int main()
 	int r = 0;
 	double x = 0;
 	double y = 0;
-	std::cout << "Ââåäèòå áîëüøèé ğàäèóñ: " << std::endl;
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ±Ğ¾Ğ»ÑŒÑˆĞ¸Ğ¹ Ñ€Ğ°Ğ´Ğ¸ÑƒÑ: " << std::endl;
 	std::cin >> R;
-	std::cout << "Ââåäèòå ìåíüøèé ğàäèóñ: " << std::endl;
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ¼ĞµĞ½ÑŒÑˆĞ¸Ğ¹ Ñ€Ğ°Ğ´Ğ¸ÑƒÑ: " << std::endl;
 	std::cin >> r;
-	std::cout << "Ââåäèòå x: " << std::endl;
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ x: " << std::endl;
 	std::cin >> x;
-	std::cout << "Ââåèòå y: " << std::endl;
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ y: " << std::endl;
 	std::cin >> y;
 	if (r*r < x*x + y*y < R*R)
 	{
-		std::cout << "Âõîäèò" << std::endl;
+		std::cout << "Ğ’Ñ…Ğ¾Ğ´Ğ¸Ñ‚" << std::endl;
 	}
 	else
 	{
-		std::cout << "Íå âõîäèò" << std::endl;
+		std::cout << "ĞĞµ Ğ²Ñ…Ğ¾Ğ´Ğ¸Ñ‚" << std::endl;
 	}
 
 	return 0;
