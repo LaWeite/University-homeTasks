@@ -17,17 +17,17 @@ int main()
 	double A_ans = 0;
 	double B_left = 0;
 	double B_right = 0;
-	std::cout << "Ââåäèòå ëåâóş ãğàíèöó A: " << std::endl;
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ»ĞµĞ²ÑƒÑ Ğ³Ñ€Ğ°Ğ½Ğ¸Ñ†Ñƒ A: " << std::endl;
 	std::cin >> A_left;
-	std::cout << "Ââåäèòå ïğàâóş ãğàíèöó A: " << std::endl;
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ¿Ñ€Ğ°Ğ²ÑƒÑ Ğ³Ñ€Ğ°Ğ½Ğ¸Ñ†Ñƒ A: " << std::endl;
 	std::cin >> A_right;
-	std::cout << "Ââåäèòå òî÷êó â A: " << std::endl;
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‚Ğ¾Ñ‡ĞºÑƒ A: " << std::endl;
 	std::cin >> A_ans;
-	std::cout << "Ââåäèòå ëåâóş ãğàíèöó B: " << std::endl;
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ»ĞµĞ²ÑƒÑ Ğ³Ñ€Ğ°Ğ½Ğ¸Ñ†Ñƒ B: " << std::endl;
 	std::cin >> B_left;
-	std::cout << "Ââåäèòå ïğàâóş ãğàíèöó B: " << std::endl;
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ¿Ñ€Ğ°Ğ²ÑƒÑ Ğ³Ñ€Ğ°Ğ½Ğ¸Ñ†Ñƒ B: " << std::endl;
 	std::cin >> B_right;
-	std::cout << "Îòâåò: " << "\n" << ansFind(A_left, A_right, A_ans, B_left, B_right) << std::endl;
+	std::cout << "ĞÑ‚Ğ²ĞµÑ‚: " << "\n" << ansFind(A_left, A_right, A_ans, B_left, B_right) << std::endl;
 
 	return 0;
 }
